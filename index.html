@@ -24,8 +24,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Normalize end -->
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body data-page>
@@ -33,33 +32,30 @@
     <header class="header">
       <div class="header__container container">
         <nav class="header__nav nav">
-          <a class="nav__logo logo link" href="./" lang="en"
+          <a class="nav__logo logo" href="./" lang="en"
             >Web<span class="logo nav__logo--black">Studio</span></a
           >
-          <ul class="nav__list list">
+          <ul class="nav__list">
             <li class="nav__item">
               <a
-                class="nav__link nav__link--current current link interact"
+                class="nav__link nav__link--current current interact"
                 href="./index.html"
                 >Студия</a
               >
             </li>
             <li class="nav__item">
-              <a class="nav__link link interact" href="./portfolio.html"
+              <a class="nav__link interact" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
             <li class="nav__item">
-              <a class="nav-link link interact" href="">Контакты</a>
+              <a class="nav__link interact" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__contacts contacts list">
+        <ul class="nav__contacts contacts">
           <li class="contacts__item">
-            <a
-              class="contacts__link link interact"
-              href="mailto:info@devstudio.com"
-            >
+            <a class="contacts__link interact" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -67,7 +63,7 @@
             </a>
           </li>
           <li class="contacts__item">
-            <a class="contacts__link link interact" href="tel:+380961111111">
+            <a class="contacts__link interact" href="tel:+380961111111">
               <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -89,10 +85,10 @@
         </div>
       </section>
       <!-- Our features -->
-      <section class="features section">
+      <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Наши особенности</h2>
-          <ul class="features__list card-set list">
+          <ul class="features__list card-set">
             <li class="features__item card-item">
               <div class="features__thumb">
                 <svg width="70" height="70">
@@ -131,7 +127,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-item card-item">
+            <li class="features__item card-item">
               <div class="features__thumb">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
@@ -149,10 +145,10 @@
         </div>
       </section>
       <!-- About -->
-      <section class="about section">
+      <section class="about">
         <div class="container">
           <h2 class="about__title section-title">Чем мы занимаемся</h2>
-          <ul class="about__list card-set list">
+          <ul class="about__list card-set">
             <li class="about__item card-item">
               <div class="about__wrapper">
                 <img
@@ -199,10 +195,10 @@
         </div>
       </section>
       <!-- Our team -->
-      <section class="team section">
+      <section class="team">
         <div class="container">
           <h2 class="team__title section-title">Наша команда</h2>
-          <ul class="team__list card-set list">
+          <ul class="team__list card-set">
             <li class="team__item card-item">
               <img
                 class="team__img"
@@ -214,10 +210,10 @@
               <div class="team__members">
                 <h3 class="team__subtitle">Игорь Демьяненко</h3>
                 <p class="team__txt">Product Designer</p>
-                <ul class="team-socials list">
+                <ul class="team__socials socials">
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -230,7 +226,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -243,7 +239,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -256,7 +252,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -270,7 +266,7 @@
                 </ul>
               </div>
             </li>
-            <li class="card-item team__item">
+            <li class="team__item card-item">
               <img
                 class="team__img"
                 src="./images/main/img5.jpg"
@@ -281,10 +277,10 @@
               <div class="team__members">
                 <h3 class="team__subtitle">Ольга Репина</h3>
                 <p class="team__txt">Frontend Developer</p>
-                <ul class="team-socials list">
+                <ul class="team__socials socials">
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -297,7 +293,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -310,7 +306,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -323,7 +319,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -348,10 +344,10 @@
               <div class="team__members">
                 <h3 class="team__subtitle">Николай Тарасов</h3>
                 <p class="team__txt">Marketing</p>
-                <ul class="team-socials socials list">
+                <ul class="team__socials socials">
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -364,7 +360,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -377,7 +373,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -390,7 +386,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -415,10 +411,10 @@
               <div class="team__members">
                 <h3 class="team__subtitle">Михаил Ермаков</h3>
                 <p class="team__txt">UI Designer</p>
-                <ul class="team-socials list">
+                <ul class="team__socials socials">
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -431,7 +427,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -444,7 +440,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -457,7 +453,7 @@
                   </li>
                   <li class="socials__item">
                     <a
-                      class="socials__link link"
+                      class="socials__link"
                       href=""
                       target="_blank"
                       rel="noopener noreferrer"
@@ -475,13 +471,13 @@
         </div>
       </section>
       <!-- Our clients -->
-      <section class="clients section">
+      <section class="clients">
         <div class="container">
           <h2 class="clients__title section-title">Постійні клієнти</h2>
-          <ul class="clients__list card-set list">
+          <ul class="clients__list card-set">
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -494,7 +490,7 @@
             </li>
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -507,7 +503,7 @@
             </li>
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -519,7 +515,7 @@
             </li>
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -531,7 +527,7 @@
             </li>
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -543,7 +539,7 @@
             </li>
             <li class="clients__item card-item">
               <a
-                class="clients__link link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -559,16 +555,16 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-container container">
+      <div class="footer__container container">
         <div class="footer__address">
-          <a class="footer__logo logo link" href="./" lang="en"
+          <a class="footer__logo logo" href="./" lang="en"
             >Web<span class="logo footer__logo--white">Studio</span></a
           >
           <address class="footer-contacts">
-            <ul class="footer-contacts__list list">
+            <ul class="footer-contacts__list">
               <li class="footer-contacts__item">
                 <a
-                  class="footer-contacts__link link interact footer__address"
+                  class="footer-contacts__link interact footer__address"
                   href="https://goo.gl/maps/68WDzeD11gWj5C5H6"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -577,14 +573,14 @@
               </li>
               <li class="footer-contacts__item footer-contacts__mail">
                 <a
-                  class="footer-contacts__link link interact"
+                  class="footer-contacts__link interact"
                   href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="footer-contacts__item footer-contacts__phone">
                 <a
-                  class="footer-contacts__link link interact"
+                  class="footer-contacts__link interact"
                   href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
@@ -594,10 +590,10 @@
         </div>
         <div class="footer-socials">
           <p class="footer-socials__title item-subtitle">приєднуйтесь</p>
-          <ul class="socials list">
+          <ul class="socials footer__socials">
             <li class="socials__item">
               <a
-                class="footer-socials__link socials__link link"
+                class="footer-socials__link socials__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -614,7 +610,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="footer-socials__link socials__link link"
+                class="footer-socials__link socials__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -631,7 +627,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="footer-socials__link socials__link link"
+                class="footer-socials__link socials__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -648,7 +644,7 @@
             </li>
             <li class="socials__item">
               <a
-                class="footer-socials__link socials__link link"
+                class="footer-socials__link socials__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -740,7 +736,7 @@
               </svg>
             </span>
           </label>
-          <label class="form__group comment">
+          <label class="form__group comment form__comment">
             <span class="comment__label">Коментар</span>
             <textarea
               class="comment__textarea"
@@ -749,7 +745,7 @@
               placeholder="Введіть текст"
             ></textarea>
           </label>
-          <label class="form__group checkbox">
+          <label class="form__group checkbox form__checkbox">
             <input
               class="checkbox__input visually-hidden"
               type="checkbox"
